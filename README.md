@@ -1,9 +1,18 @@
 # A02
 
 ## Git
-
+To start using git, you can first download the version that works for your device from their official website. To start a git repository, navigate to the directory you want it to be in and initialize the repository by typing "git init". The most common commands we use with git are: 
+- git status - which tells you what files have been changed since your last commit
+- git add [filename] - which adds the specified files to a list of files ready for commiting.
+- git commit -m "message" - which commits all added files and lets you add a description for what you are commiting.
+As you work, these are the commands you will probably use most. However, these other commands are also very important to the general workflow of a git project:
+- git branch [newbranchname] - which creates a new branch
+- git checkout [branchname] - which moves the user to the specified branch to work on
+- git push origin [branchname] - which pushes the committed content of the branch to the remote repository
+- git pull origin [branchname] - which pulls changes from the remote repository into your copy on the local machine
+These are only a few of many commands git offers to help our workflow, but these commands provide the basics of how to properly use git as a reliable version control system.
 ## GitHub
-
+GitHub provides a useful interface to users of git. It has all the features of git, as well as some of their own. To create a repository using GitHub, instead of using the git init command, you can simply click the button at the top right of your screen to create a new repository. Then, you need to clone the repository onto your local device using the command "git clone" followed by the URL GitHub provides.
 ## Webstorm
 
 ## Glossary
